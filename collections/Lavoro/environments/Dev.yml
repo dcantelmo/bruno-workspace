@@ -1,0 +1,6 @@
+name: Dev
+variables:
+  - secret: true
+    name: apikey
+  - name: apiurl
+    value: https://api44319142c3.toscana-aeroporti.com

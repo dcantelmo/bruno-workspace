@@ -1,0 +1,24 @@
+info:
+  name: Dettaglio
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: "{{apiurl}}/lost-item/categories"
+  headers:
+    - name: Accept
+      value: application/json
+    - name: User-Agent
+      value: Bruno application/vnd.api+json
+    - name: Ocp-Apim-Trace
+      value: "true"
+    - name: Ocp-Apim-Subscription-Key
+      value: "{{apikey}}"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

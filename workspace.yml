@@ -4,6 +4,10 @@ info:
   type: workspace
 
 collections:
+  - name: "Lavoro"
+    path: "collections/Lavoro"
+  - name: "Personale"
+    path: "collections/Personale"
 
 specs:
 

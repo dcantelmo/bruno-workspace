@@ -1,0 +1,7 @@
+info:
+  name: Abitare Facile
+  type: folder
+  seq: 1
+
+request:
+  auth: inherit
